@@ -5,7 +5,7 @@ require 'vtd_xml/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vtd_xml"
-  spec.version       = VtdXml::VERSION
+  spec.version       = VtdXml::VERSION.dup
   spec.authors       = ["Ariel S. Valentin", "Ryan A. Marone", "Ashraf M. Hanafy"]
   spec.email         = ["ariel@arielvalentin.com", "ashes42@gmail.com"]
   spec.description   = %q{I like VTD-XML so I use this instead of standard XML parsers}
